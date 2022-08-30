@@ -1,1 +1,1 @@
-# graphistry-gnn
+# Graphistry AI Coding Challenge
