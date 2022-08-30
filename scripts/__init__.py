@@ -14,6 +14,9 @@ try:
 except OSError:
     pass
 
+DATA_DIR = os.getenv("DATA_DIR", f"{__base__}/../data")
+MODEL_DIR = os.getenv("MODEL_DIR", f"{__base__}/../models")
+
 if not os.path.exists(DATA_DIR):
     os.mkdir(DATA_DIR)
 

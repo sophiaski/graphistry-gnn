@@ -1,3 +1,0 @@
-import os
-GRAPHISTRY_UID = os.getenv("GRAPHISTRY_UID")
-GRAPHISTRY_PWD = os.getenv("GRAPHISTRY_PWD")
